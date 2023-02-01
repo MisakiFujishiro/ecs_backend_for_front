@@ -6,11 +6,10 @@ import org.springframework.stereotype.Component;
 import lombok.Data;
 
 @Data
-@Component 
-@ConfigurationProperties(prefix="service")//allication.ymlのserviceデータを取得する
+@Component
+@ConfigurationProperties(prefix="service")
 public class ServiceProperties {
-	
-	private String dns;
-	
+
+    private String dns;
 	
 }

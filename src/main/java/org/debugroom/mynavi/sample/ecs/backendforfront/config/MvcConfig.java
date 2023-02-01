@@ -10,10 +10,10 @@ import org.springframework.web.client.RestOperations;
 import org.springframework.web.servlet.config.annotation.ResourceHandlerRegistry;
 import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
 
-@ComponentScan("org.debug.mynavi.sample.ecs.backendforfront.app.web")
+@ComponentScan("org.debugroom.mynavi.sample.ecs.backendforfront.app.web")
 @Configuration
-public class MvcConfig implements WebMvcConfigurer{
-	
+public class MvcConfig implements WebMvcConfigurer {
+
     @Autowired
     ServiceProperties properties;
 
@@ -27,6 +27,5 @@ public class MvcConfig implements WebMvcConfigurer{
         registry.addResourceHandler("/static/**")
                 .addResourceLocations("classpath:/static/");
     }
-
 
 }
