@@ -9,4 +9,5 @@ server:
   servlet:
     context-path: /backend-for-front
 service:
-  dns: http://internal-MA-fujishiroms-alb-private-1440693416.ap-northeast-1.elb.amazonaws.com
+  dns: http://172.17.0.1:8080
+  #  http://internal-MA-fujishiroms-alb-private-1440693416.ap-northeast-1.elb.amazonaws.com
