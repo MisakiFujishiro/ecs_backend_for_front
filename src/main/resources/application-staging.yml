@@ -9,4 +9,4 @@ cloud:
       auto: false
       static: ap-northeast-1
 service:
-  dns: http://internal-MA-fujishiroms-alb-private-1440693416.ap-northeast-1.elb.amazonaws.com
+  dns: http://host.docker.internal:8080
