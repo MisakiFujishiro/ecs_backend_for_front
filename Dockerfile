@@ -1,5 +1,5 @@
 # Docker Imageとしてcentos7
-FROM centos:centos7
+FROM centos:centos7 
 
 # git などのインストール
 RUN yum install -y \
